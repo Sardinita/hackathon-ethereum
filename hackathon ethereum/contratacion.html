@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/Hero-Carousel-images.css">
+    <link rel="stylesheet" href="assets/css/Navbar-Right-Links-icons.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-md py-3">
+        <div class="container"><a class="navbar-brand d-flex align-items-center" href="index.html">
+    <div><span style="font-size: 18px;font-weight: bold;"><img src="assets/img/clipboard-image-3.png" width="18" height="31" /> Star Contract</span></div>
+</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-2"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-2">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="buscarempleo.html">Buscar empleo</a></li>
+                    <li class="nav-item"><a class="nav-link" href="ofrecerservicio.html">Ofrecer servicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contratacion.html">Crear contrato</a></li>
+                </ul><a class="btn btn-primary ms-md-2" role="button" href="login.html">Iniciar Sesión</a>
+            </div>
+        </div>
+    </nav>
+    <section class="position-relative py-4 py-xl-5">
+        <div class="container position-relative">
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-8 col-lg-6 col-xl-5 col-xxl-4">
+                    <div class="card mb-5">
+                        <div class="card-body p-sm-5">
+                            <h2 class="text-center mb-4">Contrato</h2>
+                            <form method="post">
+                                <div class="mb-3"><input id="name-2" class="form-control" type="text" name="name" placeholder="Nombre y Apellido (Empleador)" /><input id="name-2" class="form-control" type="text" name="name" placeholder="Nombre y Apellido (empleado)" style="margin-top: 15px;" /></div>
+                                <div class="mb-3"><small class="form-text" style="color: rgb(0,0,0);">Opciones de pago</small><select name= "banco o cripto">
+    <option value="cripto">ETHR</option>
+    <option value="isd">ISD</option>
+    <option value="dolar">Dólares</option>
+    <input type="number" step="any" name="numero">
+</select>
+    </div>
+                                <div><small class="form-text" style="color: rgb(0,0,0);">Clausulas del contrato</small><input class="form-control" type="text"><button id = "agregar">Agregar más</button>
+<div id = "dinamic"></div>
+<script src = "/assets/js/main.js"></script></div>
+                                <div style="margin-top: 17px;"><small class="form-text" style="color: rgb(0,0,0);">Inicio de contrato</small><input class="form-control" type="date"></div>
+                                <div style="margin-top: 17px;"><small class="form-text" style="color: rgb(0,0,0);">Fin de contrato</small><input class="form-control" type="date"></div>
+                                <div><button class="btn btn-primary d-block w-100" type="submit" style="margin-top: 12px;">Send </button></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="text-center bg-dark">
+        <div class="container text-white py-4 py-lg-5">
+            <p class="text-muted mb-0">Copyright © 2022 Ethereum Hackathon</p>
+        </div>
+    </footer>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
